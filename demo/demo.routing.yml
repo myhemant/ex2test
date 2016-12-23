@@ -1,0 +1,7 @@
+demo.contact:
+  path: '/democontact'
+  defaults:
+    _form: '\Drupal\demo\Form\DemoContactForm'
+    _title: 'Demo conact form'
+  requirements:
+    _permission: 'access content'

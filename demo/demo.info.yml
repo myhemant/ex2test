@@ -1,0 +1,5 @@
+name: Demo
+type: module
+description: Create a custom module
+package: Custom
+core: 8.x

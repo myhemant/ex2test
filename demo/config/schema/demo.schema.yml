@@ -1,0 +1,9 @@
+# Schema for the configuration files of the demo.
+
+demo.settings:
+  type: mapping
+  label: 'demo settings'
+  mapping:
+    message:
+      type: text
+      label: 'Message'   
