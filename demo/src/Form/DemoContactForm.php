@@ -95,7 +95,7 @@ class DemoContactForm extends ConfigFormBase {
 		
     foreach ($form_state->getValues() as $key => $value) {
 	  if($key == 'name' || $key == 'message' ){	
-		drupal_set_message($key . ': ' . $value);
+		//drupal_set_message($key . ': ' . $value);
 	  }
     }
 	
